@@ -12,8 +12,7 @@ WITH product_pairs AS (
     JOIN order_items oi2 ON oi1.order_id = oi2.order_id
     WHERE oi1.product_id < oi2.product_id -- Avoid duplicates (A,B) and (B,A)
     GROUP BY oi1.product_id, oi2.product_id
-    HAVING COUNT(DISTINCT oi1.order_id) >= 1 -- Change threshold as needed
-)
+    HAVING COUNT(DISTINCT oi1.order_id) >= 1
 SELECT
     p1.product_name AS product_1,
     p2.product_name AS product_2,
@@ -129,7 +128,6 @@ first_second_orders AS (
         co1.customer_id,
         co1.order_date AS first_order_date,
         co2.order_date AS second_order_date,
-        -- FIX: Cast to DATE to get an integer number of days
         co2.order_date::DATE - co1.order_date::DATE AS days_to_second_purchase
     FROM customer_orders co1
     JOIN customer_orders co2 ON co1.customer_id = co2.customer_id
@@ -144,7 +142,6 @@ SELECT
     END AS time_segment,
     COUNT(*) AS customer_count,
     ROUND(AVG(days_to_second_purchase), 2) AS avg_days,
-    -- No need to round MIN and MAX if they are integers, but it doesn't hurt
     MIN(days_to_second_purchase) AS min_days,
     MAX(days_to_second_purchase) AS max_days
 FROM first_second_orders
@@ -225,3 +222,17 @@ SELECT
 FROM regional_sales
 WHERE rank_in_state <= 3  -- Top 3 products per state
 ORDER BY state, rank_in_state;
+
+/*
+
+--- Sales & Performance Analysis ---
+ i. Is our business growing month-over-month? - Monthly sales trends with growth percentages
+ ii. What are our best and worst performing products? - Product performance and profitability analysis
+ iii. Which customers haven't purchased in the last 90 days? - Re-engagement campaign identification
+
+--- Product & Operational Insights ---
+ i. What products are frequently purchased together? - Market basket analysis for cross-selling
+ ii. Which suppliers are performing best? - Supplier performance ranking by profitability
+ iii. What are the best-selling products in each geographic region? - Regional sales performance analysis
+
+*/
