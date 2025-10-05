@@ -4,7 +4,7 @@
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sql&logoColor=white)
 ![Data Analytics](https://img.shields.io/badge/Data_Analytics-008080?style=for-the-badge&logo=data&logoColor=white)
 
-A comprehensive SQL analysis of a fictional e-commerce platform "PrimeCart" demonstrating intermediate to advanced SQL techniques for business intelligence and data analytics.
+A comprehensive SQL analysis of a fictional e-commerce platform "Awesome Cart" demonstrating intermediate to advanced SQL techniques for business intelligence and data analytics.
 
 ## 📊 Project Overview
 
@@ -16,6 +16,25 @@ This project simulates the work of a Data Analyst at an e-commerce company, tran
 - **Product Performance**: Identify best-selling products, profitability, and category trends
 - **Sales Optimization**: Analyze seasonal trends, growth metrics, and regional performance
 - **Operational Efficiency**: Evaluate supplier performance and inventory insights
+
+## 🔍 Business Questions Answered
+
+### Customer Analysis
+1. **Who are our most valuable customers?** - Customer Lifetime Value analysis
+2. **Can we segment customers into groups based on purchase behavior?** - Customer segmentation by frequency and value
+3. **How well are we retaining customers over time?** - Cohort analysis for retention rates
+4. **How long does it take for customers to make their second purchase?** - Time-to-second-purchase analysis
+5. **Which new customers show potential to become high-value?** - Customer value prediction based on initial behavior
+
+### Sales & Performance Analysis
+6. **Is our business growing month-over-month?** - Monthly sales trends with growth percentages
+7. **What are our best and worst performing products?** - Product performance and profitability analysis
+8. **Which customers haven't purchased in the last 90 days?** - Re-engagement campaign identification
+
+### Product & Operational Insights
+9. **What products are frequently purchased together?** - Market basket analysis for cross-selling
+10. **Which suppliers are performing best?** - Supplier performance ranking by profitability
+11. **What are the best-selling products in each geographic region?** - Regional sales performance analysis
 
 ## 🗄️ Database Schema
 
