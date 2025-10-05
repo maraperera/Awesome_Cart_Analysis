@@ -41,7 +41,7 @@ This project simulates the work of a Data Analyst at an e-commerce company, tran
 ### 1. Customer Lifetime Value Analysis
 **Business Question:** Who are our most valuable customers?
 
-![Customer LTV Analysis](result/01.jpg)
+![Customer LTV Analysis](results/01.jpg)
 
 **Key Insights:**
 - **Keith Henry** is the top customer with $1,298 lifetime value from just 2 orders
@@ -52,7 +52,7 @@ This project simulates the work of a Data Analyst at an e-commerce company, tran
 ### 2. Monthly Sales Trends & Growth
 **Business Question:** Is our business growing month-over-month?
 
-![Monthly Sales Trends](result/02.jpg)
+![Monthly Sales Trends](results/02.jpg)
 
 **Key Insights:**
 - **Massive 258.81% growth** in April 2025 followed by significant decline
@@ -63,7 +63,7 @@ This project simulates the work of a Data Analyst at an e-commerce company, tran
 ### 3. Product Performance & Profitability
 **Business Question:** What are our best and worst performing products?
 
-![Product Performance](result/03.jpg)
+![Product Performance](results/03.jpg)
 
 **Key Insights:**
 - **Face Mask Set** has incredible 98.35% profit margin generating $981.50 profit
@@ -74,7 +74,7 @@ This project simulates the work of a Data Analyst at an e-commerce company, tran
 ### 4. Customer Re-engagement Identification
 **Business Question:** Which customers haven't purchased in the last 90 days?
 
-![Re-engagement Candidates](result/04.jpg)
+![Re-engagement Candidates](results/04.jpg)
 
 **Key Insights:**
 - **39 customers identified** for re-engagement campaigns
@@ -85,7 +85,7 @@ This project simulates the work of a Data Analyst at an e-commerce company, tran
 ### 5. Customer Segmentation Analysis
 **Business Question:** Can we segment customers into groups based on purchase behavior?
 
-![Customer Segmentation](result/05.jpg)
+![Customer Segmentation](results/05.jpg)
 
 **Key Insights:**
 - **10 High Value Regular Customers** spending average $892.20 each
@@ -96,7 +96,7 @@ This project simulates the work of a Data Analyst at an e-commerce company, tran
 ### 6. Market Basket Analysis
 **Business Question:** What products are frequently purchased together?
 
-![Product Affinity](result/06.jpg)
+![Product Affinity](results/06.jpg)
 
 **Key Insights:**
 - **Ergonomic Office Chair + LEGO Starship Model** purchased together 3 times (1.80% penetration)
@@ -107,7 +107,7 @@ This project simulates the work of a Data Analyst at an e-commerce company, tran
 ### 7. Customer Cohort Retention Analysis
 **Business Question:** How well are we retaining customers over time?
 
-![Cohort Analysis](result/07.jpg)
+![Cohort Analysis](results/07.jpg)
 
 **Key Insights:**
 - **January cohort** shows 23.81% retention after 3 months, dropping to 4.76% by month 4
@@ -118,7 +118,7 @@ This project simulates the work of a Data Analyst at an e-commerce company, tran
 ### 8. Supplier Performance Ranking
 **Business Question:** Which suppliers are performing best?
 
-![Supplier Performance](result/08.jpg)
+![Supplier Performance](results/08.jpg)
 
 **Key Insights:**
 - **Washington Inc** (Japan) leads with 98.35% profit margin on Face Mask Sets
@@ -129,7 +129,7 @@ This project simulates the work of a Data Analyst at an e-commerce company, tran
 ### 9. Time-to-Second-Purchase Analysis
 **Business Question:** How long does it take for customers to make their second purchase?
 
-![Second Purchase Timing](result/09.jpg)
+![Second Purchase Timing](results/09.jpg)
 
 **Key Insights:**
 - **Only 6 customers** make second purchase within 7 days
@@ -140,7 +140,7 @@ This project simulates the work of a Data Analyst at an e-commerce company, tran
 ### 10. Category Performance Trends
 **Business Question:** How do sales trends look for each product category over time?
 
-![Category Trends](result/10.jpg)
+![Category Trends](results/10.jpg)
 
 **Key Insights:**
 - **Clothing category** shows massive fluctuations with 1,399.90% growth in March
@@ -151,7 +151,7 @@ This project simulates the work of a Data Analyst at an e-commerce company, tran
 ### 11. Regional Sales Performance
 **Business Question:** What are the best-selling products in each geographic region?
 
-![Regional Performance](result/11.jpg)
+![Regional Performance](results/11.jpg)
 
 **Key Insights:**
 - **Alaska (AK)** shows diverse preferences across categories
